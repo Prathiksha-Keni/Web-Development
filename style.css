@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav {
+    background-color: cadetblue;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.list {
+    display: inline;
+    font-size: 28px;
+}
+
+.nav-anch {
+    color: coral;
+    text-decoration: none;
+    padding-right: 15px;
+    margin-left: 2%;
+    transition: 2s;
+}
+
+.nav-anch:hover {
+    color: indigo;
+}
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: wheat;
+    background-color: lightslategrey;
+}
+
+.mar {
+    color: limegreen;
+    font-size: 24px;
+}
+
+.img-mar {
+    border: 3px dotted black;
+}
+
+.sec,
+.para {
+    display: inline;
+    width: 25%;
+}
+
+.para {
+    display: inline;
+}
