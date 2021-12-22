@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Css</title>
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        #navbar {
+            margin-top: 12px;
+            padding: 25px;
+            list-style-type: none;
+        }
+        
+        .design-css {
+            display: inline;
+            background-color: lightseagreen;
+            padding: 8px;
+            text-decoration: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .div {
+            background-color: pink;
+        }
+        
+        .heading {
+            text-align: center;
+            font-size: 50px;
+            color: blue;
+            text-shadow: 2px 2px white;
+            transition: 2s;
+            background-color: lightsalmon;
+        }
+        
+        .heading:hover {
+            text-shadow: 25px 25px red;
+            background-color: royalblue;
+        }
+        
+        .img {
+            border: 10px solid brown;
+            width: 25%;
+            background-color: chartreuse;
+        }
+        
+        body {
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>&#169</p>
+    <p>&#168</p>
+    <p>&#170</p>
+    <p>&#65</p>
+    <p>&#66</p>
+    <p>&#128512</p>
+    <p>&#128507</p>
+    <p>&#128513</p>
+    <p>&#128508</p>
+
+    <kbd>ctrl+s</kbd> <br>
+    <code>
+        x=2; <br>
+        y=3; <br>
+        z=x+y; <br>
+        System.out.println(z);
+    </code> <br> <br> <br>
+    <form action="../assignment-2/index.html">
+        <label for="">Username</label><input type="text" required>
+        <label for="">Password</label><input type="password" required>
+        <label for="">Email</label><input type="email" required>
+        <button type="submit">Submit</button>
+        <br> <br> <br>
+        <label for="">Course</label> <br> <input type="checkbox" name="Java"> <label for="">Java</label> <br>
+        <input type="checkbox" name="SQL"><label for="">SQL</label> <br>
+        <input type="checkbox" name="Web"><label for="">WEB Development</label> <br> <br><br>
+        <label for="">Gender</label> <br>
+        <input type="radio" name="gender"><label for="">Male</label>
+        <input type="radio" name="gender"><label for="">Female</label> <br><br><br>
+        <select>
+            <option value="Morning batch">Morning Session</option>
+            <option value="Afternoon batch">Afternoon Session</option>
+            <option value="Online">Online Batch</option>
+            <option value="Weekend batch">Weekend Session</option>
+        </select> <br><br><br>
+        <textarea name="" id="" cols="30" rows="10" maxlength="10"></textarea> <br><br><br>
+        <input type="date"> <br><br><br>
+        <input type="file" multiple> <br><br><br>
+    </form>
+
+    <div class="div">
+        <ul id="navbar">
+            <li class="design-css"><a href="#">Home</a></li>
+            <li class="design-css"><a href="#">Contact Us</a></li>
+            <li class="design-css"><a href="#">About</a></li>
+        </ul>
+    </div>
+    <h1 class="heading">Welcome</h1>
+    <hr>
+    <img src="../image/Landscape-Color.jpg" alt="" class="img">
+    <img src="../image/2467256.jpg" alt="" class="img"> <br> <br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque delectus perferendis suscipit, odio ab voluptatibus, nam assumenda reiciendis ipsam quaerat dolorem eum atque ut a. Repellendus ad porro aspernatur fugiat?</p>
+    <br><br>
+    <p><mark>NOTE: </mark>Default colour of mark tag is yellow</p>
+
+
+</body>
+
+</html>
